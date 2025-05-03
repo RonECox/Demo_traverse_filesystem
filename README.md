@@ -17,6 +17,9 @@ A command-line utility to recursively scan a directory and report files that mat
 - Exports results to a CSV file
 - Displays version with `--version`
 
+## Watch the Video Tutorial
+[![Watch the Video Tutorial](https://img.youtube.com/vi/vPlx2M24lJk/0.jpg)](https://youtu.be/vPlx2M24lJk)
+
 ## Usage
 
 ```bash

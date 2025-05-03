@@ -1,8 +1,8 @@
-import os
-import csv
-import argparse
+import os # Handles file paths and directory operations
+import csv # Handles the ouput in spreadsheet format
+import argparse # Handles the user inputs from the command line
 
-VERSION = "1.0.0"
+VERSION = "1.0.0" # Initial version of the tool
 
 def bytes_to_mb(size_bytes):
     """Convert bytes to megabytes (rounded to two decimal places)."""
@@ -26,6 +26,7 @@ def export_to_csv(file_list, filename):
         print(f"\n❌ Failed to write CSV: {e}")
 
 def main():
+    """Create a flexible command-line interface to control the scans."""
     parser = argparse.ArgumentParser(
         description="Scan a directory tree and report files based on filters.",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
